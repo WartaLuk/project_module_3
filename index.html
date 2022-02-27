@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Shadrick</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a41d4159b2.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar d-flex p-2 bd-highlight navbar-light bg-light" navbar-expand-md>
+            <a class="navbar-brand">Shadrick</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mobile-menu">
+                <ul class="navbar-nav">
+                    <li class="dropdown">
+                        <a class="navbar-link dropdown-toggle" href="#" data-toggle="dropdown">Clothing</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Women's</a>
+                            <a class="dropdown-item" href="#">Men's</a>
+                            <a class="dropdown-item" href="#">Children's</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a class="navbar-link dropdown-toggle" href="#" data-toggle="dropdown">Underwear</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Lingerie</a>
+                            <a class="dropdown-item" href="#">Men's</a>
+                            <a class="dropdown-item" href="#">Children's</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a class="navbar-link dropdown-toggle" href="#" data-toggle="dropdown">Shoes</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Women's</a>
+                            <a class="dropdown-item" href="#">Men's</a>
+                            <a class="dropdown-item" href="#">Children's</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a class="navbar-link dropdown-toggle" href="#" data-toggle="dropdown">Accessories</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Woman's</a>
+                            <a class="dropdown-item" href="#">Men's</a>
+                            <a class="dropdown-item" href="#">Children's</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="btn-group ml-auto" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-secondary">Cart <i class="fa-solid fa-cart-plus"></i></button>
+                <button type="button" class="btn btn-secondary">Account <i class="fa-solid fa-user"></i></button>
+            </div>
+        </nav>
+        <div id="main-slider" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="w-100" src="https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Woman with shopping">
+              <div class="carousel-caption">
+              <h3>Women's fashion</h3>
+              <h4>Let yoursel be pampered</h4>
+              <a href="#" class="btn btn-primary">SALES -20%</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="w-100" src="https://images.pexels.com/photos/298864/pexels-photo-298864.jpeg?cs=srgb&dl=pexels-terje-sollie-298864.jpg&fm=jpg" alt="Elegant clothing">
+              <div class="carousel-caption">
+              <h3>Men's fashion</h3>
+              <h4>The shoes represent the gentleman</h4>
+              <a href="#" class="btn btn-primary">See our showcase</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="w-100" src="https://images.pexels.com/photos/3389419/pexels-photo-3389419.jpeg?cs=srgb&dl=pexels-elegance-nairobi-3389419.jpg&fm=jpg" alt="High heels">
+              <div class="carousel-caption">
+              <h3>Women's fashion</h3>
+              <h4>Lady reach the top with high heels</h4>
+              <a href="#" class="btn btn-primary">See our showcase</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="w-100" src="https://images.pexels.com/photos/1342609/pexels-photo-1342609.jpeg?cs=srgb&dl=pexels-the-lazy-artist-gallery-1342609.jpg&fm=jpg" alt="Man in suit">
+              <div class="carousel-caption">
+              <h3>Men's fashion</h3>
+              <h4>Take a look at our large colection</h4>
+              <a href="#" class="btn btn-primary">SALES -20%</a>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#main-slider" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#main-slider" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div> 
+    </header>
+    <center><main>
+        <section class="first-part container row pb-5 d-flex">
+            <div class="card col-md-3 col-sm-10 brands d-flex justify-content-around">
+                <h2>Brands</h2>
+                <div class="list-group flex-sm-row flex-md-column">
+                    <a href="#" class="list-group-item list-group-item-action">Adam Baron</a>
+                    <a href="#" class="list-group-item list-group-item-action">Lancerto</a>
+                    <a href="#" class="list-group-item list-group-item-action">Lacoste</a>
+                    <a href="#" class="list-group-item list-group-item-action">Le Collet</a>                       
+                    <a href="#" class="list-group-item list-group-item-action">Pako Lorente</a>                     
+                    <a href="#" class="list-group-item list-group-item-action">Vistula</a>
+                </div>
+            </div>
+            <div class="col-9 d-flex justify-content-between">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1593032465175-481ac7f401a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="Green suit">
+                        </div>
+                        <div class="card-body">
+                            <h5>Green suit from Adam Baron's new collection Vere Venit</h5>
+                            <a class="btn btn-light" href="#">Add to cart</a>               
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="Blue suit">
+                        </div>
+                        <div class="card-body position-absolute">
+                            <h5>Blue suit from Adam Baron's new collection Vere Venit</h5>
+                            <a class="btn btn-light" href="#">Add to cart</a>               
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1535043934128-cf0b28d52f95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="White heels">
+                        </div>
+                        <div class="card-body position-absolute">
+                            <h5>White heels from Adam Baron's new collection Vere Venit</h5>
+                            <a class="btn btn-light" href="#">Add to cart</a>               
+                        </div>
+                    </div>
+                    <div class="d-lg-none col-md-6 col-sm-12">
+                        <div class="card">
+                           <img src="https://images.unsplash.com/photo-1611485988300-b7530defb8e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="Man in jacket"></div>
+                        <div class="card-body position-absolutive">
+                            <h5>Coat from Adam Baron's new collection Vere Venit</h5>
+                            <a class="btn btn-light" href="#">Add to cart</a>               
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="second-part container row d-flex justify-content-between">
+            <div class="col-md-6 position-relative justify-content-around">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/10397674/pexels-photo-10397674.jpeg?cs=srgb&dl=pexels-ron-lach-10397674.jpg&fm=jpg" alt="Man in sweater">
+                </div>
+                <div class="card-body position-absolute">
+                    <h5>Winter Sale</h5>
+                    <br>
+                    <a class="btn btn-light" href="#">See deals</a>               
+                </div>
+            </div>
+            <div class="col-md-6 position-relative">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/871495/pexels-photo-871495.jpeg?cs=srgb&dl=pexels-godisable-jacob-871495.jpg&fm=jpg" alt="Stylish woman">
+                </div>
+                <div class="card-body position-absolute">
+                    <h5>Lookbook</h5>
+                    <br>
+                    <a class="btn btn-light" href="#">Get inspired</a>               
+                </div>
+            </div>
+            <div class="w-100 position-relative">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/4056475/pexels-photo-4056475.jpeg?cs=srgb&dl=pexels-cottonbro-4056475.jpg&fm=jpg" alt="Woman with a magazine">
+                </div>
+                <div class="card-body position-absolute">
+                    <h5>News & ideas</h5>
+                    <br>
+                    <a class="btn btn-light" href="#">Go to Shadrick blog</a>               
+                </div>
+            </div>
+        </section>
+        <section class="third-part container row d-flex justify-content-between">
+            <div class="col-md-4 col-sm-12">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2">
+                            <i class="fa-solid fa-truck-fast"></i>
+                        </div>
+                        <div class="col-10">
+                            <div class="card-body">
+                                <h3>Free shipping</h3>
+                                <a>Over 60$</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2">
+                            <i class="fa-solid fa-wallet"></i>
+                        </div>
+                        <div class="col-10">
+                            <div class="card-body">
+                                <h3>60-day refund</h3>
+                                <a>Exept underwear</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2">
+                            <i class="fa fa-life-ring"></i>
+                        </div>
+                        <div class="col-10">
+                            <div class="card-body">
+                                <h3>24/7 support</h3>
+                                <a>Exept holidays</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="fourth-part container row d-flex justify-content-center">
+            <div class="card col-9">
+                <div class="row">
+                    <div class="card-body col-lg-4 col-md-12 col-sm-12 order-sm-3">
+                        <h3>Newsletter</h3>
+                        <h5>Stay up to date with news and promotions</h5>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="email">
+                            <div class="input-group-append">
+                                <span class="input-group-text" id="email"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body col-lg-4 col-md-6 col-sm-6 order-sm-1">
+                        <h3>Shadrick</h3>
+                        <h5>Fallow us on social media</h5>
+                        <a class="brand" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a class="brand" href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="brand" href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a class="brand" href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                        <div class="card-body col-lg-4 col-md-6 col-sm-6 order-sm-2">
+                        <h3>Contact us</h3>
+                        <h5>20 Merrion Way,<br>Leeds LS2 8NZ<br>United Kingdom</h5>
+                    </div>
+            </div>
+        </section>
+        <section class="footer">
+            <hr/>
+            <div class="row d-flex justify-content-between">
+                <div class="col-4">
+                    <a><i class="fa-regular fa-circle-c"></i>Shadrick Ltd.<a>
+                </div>
+                <div class="col-6">
+                    <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item">
+                            <a href="#">About</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">Delivery</a>
+                        </li>
+                        <li class="list-inline-item">
+                        <a href="#">Returns</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">Privacy policy</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">Terms and conditions</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main></center>
+</body>
+</html>
